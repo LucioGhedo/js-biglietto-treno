@@ -18,5 +18,5 @@ p {
     font-weight: 700;
 }
 #price::after {
-    content: "$";
+    content: "€";
 }

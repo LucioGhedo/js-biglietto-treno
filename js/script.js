@@ -14,8 +14,8 @@ const kmPrice = 0.21;
 let priceCalc = (distance * kmPrice);
 let minorDiscount = ((priceCalc * 20) / 100);
 let overDiscount = ((priceCalc * 40) / 100);
-
 let result = 0;
+
 if (userAge < 18) {
     result = (priceCalc - minorDiscount)
 } else if (userAge > 65) {
